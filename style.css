@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    margin: 0 5% ;
+}
+
+
+.list{
+      display: grid;
+      grid-template-columns: repeat(7,1fr);
+      gap: 1rem;
+      
+}
+
+.list > *{
+    justify-content: center;
+    align-content: center;
+}
+.img-foto{
+  width: 6rem;
+  height: 6rem;
+}
+.container{
+    list-style: none;
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+}
+
+.cont-img{
+    padding: 5%;
+    margin: 5%;
+    border-radius: 15%;
+}
+#inicio{
+    background-color: #df2650;
+}
+#historia{
+    background-color: #efb635;
+}
+#ubicacion{
+    background-color: #12a150;
+}
+#festividades{
+    background-color: #29afd4;
+}
+#musica{
+    background-color: #b05bec;
+}
+#gastronomia{
+    background-color: #ee8149;
+}
+#juegos{
+    background-color: #ed3887;
+}
+
+ a {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #646267; 
+}
+
+body{
+    background-image:url(img/inicio\ ubicacion/inicio.jpg );
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+footer {
+    position: absolute;
+    display: block;
+    padding: 15px;
+    background-color: #efb635;
+    width: 100%;
+    bottom: 0px;
+    
+}
+.red-social{
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+}

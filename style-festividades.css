@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+
+    margin:  5%;
+}
+
+footer {
+    margin: 15% 0px 0px 0px;
+    display: block;
+    padding: 15px;
+    background-color: #efb635;
+    width: 100% ;
+}
+
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1rem;
+
+}
+
+.list>* {
+    justify-content: center;
+    align-content: center;
+}
+
+.img-foto {
+    width: 6rem;
+    height: 6rem;
+}
+
+.container {
+    list-style: none;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.cont-img {
+    padding: 5%;
+    margin: 5%;
+    border-radius: 15%;
+}
+
+#inicio {
+    background-color: #df2650;
+}
+
+#historia {
+    background-color: #efb635;
+}
+
+#ubicacion {
+    background-color: #12a150;
+}
+
+#festividades {
+    background-color: #29afd4;
+}
+
+#musica {
+    background-color: #b05bec;
+}
+
+#gastronomia {
+    background-color: #ee8149;
+}
+
+#juegos {
+    background-color: #ed3887;
+}
+
+a {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #646267;
+}
+
+body {
+    background-image: url(/bg\ festividades.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+h1 {
+    margin-top: 1em;
+    font-family: 'Chicle', cursive;
+    color: #ee8149;
+    font-size: 6em;
+    letter-spacing: 4px;
+    font-weight: 300;
+    margin: 5% 5% 2% 5% ;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5em;
+    margin: 0 5%;
+    justify-content: center;
+    color:#646267;
+    font-weight: 900;
+}
+
+
+.cont-sb {
+    margin-top: 30px;    
+}
+   
+figure {
+    display: grid;
+    grid-template-columns: repeat(2, 20%);
+    grid-gap: 12px;
+    align-items: flex-end;
+    text-align: center;
+    
+}
+#img-bandera{
+margin-top: 60px
+}
+figcaption{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.galeria{
+   
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-gap:4%;
+    margin: 5% 5%;
+    
+    
+}
+.foto-gl{
+    width: 500px;
+    height: 500px;
+}
+
+
+.red-social {
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+}
